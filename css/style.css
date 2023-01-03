@@ -564,11 +564,9 @@ input.password {
 /* NEW SITE ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 /* NEW SITE ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-
-
 .header {
     height: 50px;
-    width: 1534px;
+    max-width: 1534px;
     /* background-color: #385EBF; */
     margin: 0 auto;
     display: flex;
@@ -905,6 +903,10 @@ input.search:focus, textarea:focus, select:focus{
     margin-top: 10px;
 }
 
+div#hide {
+    display: none;
+}
+
 .tune p {
     color: #fff;
     font-size: 20px;
@@ -998,7 +1000,7 @@ input.search:focus, textarea:focus, select:focus{
 #single p {
     color: #FF39D4;
     padding-top: 4px;
-    padding-left: 2px;
+    /* padding-left: 1px; */
     font-size: 17px;
     width: 72px;
 }
@@ -1072,7 +1074,9 @@ input.search:focus, textarea:focus, select:focus{
     /* margin: auto; */
     display: flex;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 16%;
+    margin-right: 0px;
+    justify-content: center;
 }
 
 .download-button {

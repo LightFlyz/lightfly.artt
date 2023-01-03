@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/search.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta name="viewport" content="width=device-width">
     <title>LightFly</title>
     <link rel="icon" type="image/x-icon" href="../../img/favicon/favicon.ico">
     <?
@@ -20,6 +21,12 @@
 <style>
     body {
         background-color: #0C0D0F;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    body::-webkit-scrollbar {
+        display: none;
     }
 </style>
 <!-- Header --------------------------------------------------------------------------------->
@@ -85,12 +92,13 @@
 <!-- Search -->
 
  <div class="search">
-    <input type="text" placeholder="Search for one of my fucking tunes!" class="search">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for one of my fucking tunes!" title="Type in a name" class="search">
  </div>
 
 <!-- Tunes -->
 
     <div class="songs-box">
+        <ul id="myUL">
         <?
         echo "$i_really_wanna_stay_at_your_house";
         echo "$waiting_remix";
@@ -102,8 +110,8 @@
         echo "$live_at_night"; 
         echo "$just_stay"; 
         ?>
+        </ul>
     </div>
-
 
 </body>
 </html>

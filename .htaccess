@@ -1,1 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^levovix/ - [L]
+RewriteCond %{HTTP_HOST} (www.)?levovix.ru [NC]
+RewriteRule (.*) levovix/$1 [L]
+
 ErrorDocument 404 /404.php
+
+Redirect /index.html /downloads/tunes
+Redirect /downloads/index.html /downloads/tunes
