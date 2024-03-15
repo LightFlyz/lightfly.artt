@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* * {
+    transition: all 0.9s;
+} */
+
+h1#four-o-four {
+    color: black;
+}
+
+a#four-o-four {
+    color: #953ced;
+}
+
+body {
+    background-color: #f3f2f0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.global-nav-link {
+    color: #000000;
+}
+
+.vert-line-header {
+    background-color: #c6c6c6;
+}
+
+::selection {
+    color: white;
+    background-color: #963CEE;
+}
+
+.header-logo {
+    filter: brightness(0) saturate(0%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0) brightness(0%) contrast(100%);
+}
+
+.header-logo:hover {   
+    filter: brightness(0) saturate(100%) invert(26%) sepia(57%) saturate(5584%) hue-rotate(262deg) brightness(99%) contrast(88%);
+}
+
+.header-social-icon {
+    filter: brightness(0) saturate(0%) invert(100%) sepia(0%) saturate(0%) hue-rotate(0) brightness(0%) contrast(100%);
+}
+
+.header-social-icon:hover {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(57%) saturate(5584%) hue-rotate(262deg) brightness(99%) contrast(88%);
+}
+
+/* Navigation --------------------------------- */
+
+
+p#navigation-selected-heading {
+    color: #121315;
+}
+
+p#navigation-selected {
+    color: #555555;
+}
+
+/* -------------- */
+
+p#navigation-heading {
+    color: #000000;
+}
+
+p#navigation {
+    color: #333333;
+}
+
+/* ------------------ */
+
+.nav-icon {
+    /* filter: invert(100%) sepia(99%) saturate(17%) hue-rotate(211deg) brightness(105%) contrast(100%); */
+    filter: none;
+}
+
+.nav-icon#selected {
+    filter: none;
+}
+
+.nav-block {
+    background: #EDECEA;
+}
+
+.nav-block#selected {
+    background: #CFCFCF;
+}
+
+.nav-block:hover {
+    outline:  #953ced 2px solid;
+}
+
+.nav-block:hover .nav-icon {
+    filter: invert(30%) sepia(75%) saturate(1859%) hue-rotate(252deg) brightness(92%) contrast(103%);
+}
+
+.nav-block:hover p#navigation-heading {
+    color: #953ced;
+}
+
+.nav-block:hover p#navigation {
+    color: #953ced;
+}
+
+.search {
+    background: #EBEBEB;
+}
+
+input.search {
+    color: #969696;
+    border: #EBEBEB 2px solid;
+
+}
+
+input.search:focus, textarea:focus, select:focus{
+    border: #953ced 2px solid;
+}
+
+/* Tune ========================================================= */
+
+.tune p {
+    color: #000000;
+}
+
+#long-title {
+    color: #000000;
+}
+
+.tune p1 {
+    color: #969696;
+}
+
+/* Culumn 3 =================================== */
+
+
+#single {
+    outline: #DC35B8 2px solid;
+}
+
+#single p {
+    color: #DC35B8;
+}
+
+#remix {
+    outline: #15C4D7 2px solid;
+}
+
+#remix p {
+    color: #15C4D7;
+}
+
+#ep {
+    outline: #F66C03 2px solid;
+}
+
+#ep p {
+    color: #F66C03;
+}
+
+#album {
+    outline: #1AD32B 2px solid;
+}
+
+#album p {
+    color: #1AD32B;
+}
+
+/* Culumn 4 =================================== */
+
+.download-button {
+    background-color: #963CEE;
+}
+
+.stream-button {
+    background-color: #EE473C;
+
+}
+
+.stream-button:hover{
+    background-color: #aa2e25;
+    transition: 0.2s;
+}
+
+.download-button:hover{
+    background-color: #6f2bb3;
+    transition: 0.2s;
+}
+
+.download-button p {
+    color: #fff;
+}
+
+.stream-button p {
+    color: #fff;
+}
+
+#locked-soon {
+    background-color: #333036;
+}
+
+/* Asstes ================================================================== */
+
+.assets-block {
+    background: #EDECEA;
+}
+
+li.assets {
+    background: #EDECEA;
+}
+
+#asset-title p1 {
+    color: #121315;
+}
+
+pre {
+    color: #121315;
+}
+
+#artwork-single {
+    /* border: blue 2px solid; */
+    background-color: #CFCFCF;
+}
+
+.home-header-link {
+    color: #000000;
+}
+
+.home-header-link:hover {
+    color: #953ced;
+}
+
+.home-header-link1 {
+    color: #000000;
+}
+
+.home-header-link1:hover {
+    color: #953ced;
+}
+
+
+/* fhsajhfsjdlsaf */
+
+.absolutely-fixed {
+    background-color: #f3f2f0;
+}
+
+#header-null-color {
+    background-color: #f3f2f0;
+}
+
+.dark-mode-icon {
+    display: none;
+}
+
+.light-mode-icon:hover {
+    filter: invert(30%) sepia(75%) saturate(1859%) hue-rotate(252deg) brightness(92%) contrast(103%);
+}
+

@@ -1,0 +1,52 @@
+.horizontal-space-between {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .horizontal-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .horizontal-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .horizontal-smallgap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .horizontal-nogap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .vertical-smallgap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

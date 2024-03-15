@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1#four-o-four {
+    color: white;
+}
+
+a#four-o-four {
+    color: #953ced;
+}
+
+body {
+    background-color: #0C0D0F;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::selection {
+    color: white;
+    background-color: #963CEE;
+}
+
+.header-logo {
+    filter: none;
+}
+
+.header-logo:hover {   
+    filter: brightness(0) saturate(100%) invert(26%) sepia(57%) saturate(5584%) hue-rotate(262deg) brightness(99%) contrast(88%);
+}
+
+.header-social-icon {
+    filter: none;
+}
+
+.header-social-icon:hover {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(57%) saturate(5584%) hue-rotate(262deg) brightness(99%) contrast(88%);
+}
+
+/* Navigation --------------------------------- */
+
+
+p#navigation-selected-heading {
+    color: #121315;
+}
+
+p#navigation-selected {
+    color: #555555;
+}
+
+/* -------------- */
+
+p#navigation-heading {
+    color: #ffffff;
+}
+
+p#navigation {
+    color: #ffffff;
+}
+
+/* ------------------ */
+
+.nav-icon {
+    filter: invert(100%) sepia(99%) saturate(17%) hue-rotate(211deg) brightness(105%) contrast(100%);
+}
+
+.nav-icon#selected {
+    filter: none;
+}
+
+.nav-block {
+    background: #121315;
+}
+
+.nav-block#selected {
+    background: #fff;
+}
+
+.nav-block:hover {
+    outline:  #953ced 2px solid;
+}
+
+.nav-block:hover .nav-icon {
+    filter: invert(30%) sepia(75%) saturate(1859%) hue-rotate(252deg) brightness(92%) contrast(103%);
+}
+
+.nav-block:hover p#navigation-heading {
+    color: #953ced;
+}
+
+.nav-block:hover p#navigation {
+    color: #953ced;
+}
+
+.search {
+    background: #121315;
+}
+
+input.search {
+    color: #fff;
+    border: #121315 2px solid;
+
+}
+
+input.search:focus, textarea:focus, select:focus{
+    border: #953ced 2px solid;
+}
+
+/* Tune ========================================================= */
+
+.tune p {
+    color: #fff;
+}
+
+#long-title {
+    color: #fff;
+}
+
+.tune p1 {
+    color: #696969;
+}
+
+/* Culumn 3 =================================== */
+
+
+#single {
+    outline: #FF39D4 2px solid;
+}
+
+#single p {
+    color: #FF39D4;
+}
+
+#remix {
+    outline: #19E9FF 2px solid;
+}
+
+#remix p {
+    color: #19E9FF;
+}
+
+#ep {
+    outline: #F66C03 2px solid;
+}
+
+#ep p {
+    color: #F66C03;
+}
+
+#album {
+    outline: #1AFF2F 2px solid;
+}
+
+#album p {
+    color: #1AFF2F;
+}
+
+/* Culumn 4 =================================== */
+
+.stream-button {
+    background-color: #EE473C;
+    
+}
+
+.stream-button:hover{
+    background-color: #aa2e25;
+    transition: 0.2s;
+}
+
+.download-button {
+    background-color: #963CEE;
+}
+
+.download-button:hover{
+    background-color: #6f2bb3;
+    transition: 0.2s;
+}
+
+.download-button p {
+    color: #fff;
+}
+
+.stream-button p {
+    color: #fff;
+}
+
+#locked-soon {
+    background-color: #333036;
+}
+
+/* Asstes ================================================================== */
+
+.assets-block {
+    background: #121315;
+}
+
+li.assets {
+    background: #121315;
+}
+
+#asset-title p1 {
+    color: #fff;
+}
+
+pre {
+    color: #fff;
+}
+
+#artwork-single {
+    /* border: blue 2px solid; */
+    background-color: #121315;
+}
+
+
+.home-header-link {
+    color: #fff;
+}
+
+.global-nav-link {
+    color: #fff;
+}
+
+.vert-line-header {
+    background-color: #464646;
+}
+
+.home-header-link:hover {
+    color: #953ced;
+}
+
+.home-header-link1 {
+    color: #fff;
+}
+
+.home-header-link1:hover {
+    color: #953ced;
+}
+
+/* ///////////////// HOME PAGE /////////////// */
+/* ///////////////// HOME PAGE /////////////// */
+/* ///////////////// HOME PAGE /////////////// */
+
+#latest-heading {
+    color: #696969;
+}
+
+#heading-home {
+    color: white;
+}
+
+#latest-desc {
+    color: #888888;
+}
+
+.home-hr {
+    border: 1px solid #1f1f21;
+}
+
+#popular-song-title {
+    color: #fff;
+}
+
+#popular-song-artist {
+    color: #696969;
+}
+
+
+#popular-releases-title {
+    color: white;
+}
+
+
+#bio-title {
+    color: white;
+}
+
+
+#bio-biography {
+    color: #C3C3C3;
+}
+
+
+#home-footer-title {
+    color: white;
+}
+
+
+#home-footer-links a {
+    color: #696969;
+}
+
+.latest-artwork {
+    -webkit-box-shadow: 0px 0px 10.3px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10.3px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10.3px 5px rgba(0,0,0,0.3);
+}
+
+.absolutely-fixed {
+    background-color: #121315;
+}
+
+#header-null-color {
+    background-color: #0C0D0F;
+}
+
+.light-mode-icon {
+    display: none;
+}
+
+.dark-mode-icon:hover {
+    filter: brightness(0) saturate(100%) invert(32%) sepia(82%) saturate(1416%) hue-rotate(248deg) brightness(88%) contrast(113%);
+}

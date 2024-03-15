@@ -1,0 +1,803 @@
+/* X-Large devices (large desktops, 1400px) */
+@media only screen and (max-width: 1920px) {
+    .wrapper {
+        width: 1534px;
+        /* margin: auto; */
+        float: auto;
+        /* border: 2px green solid; */
+    }
+}
+
+/* Large devices (desktops, 1200px) */
+@media only screen and (max-width: 1772px) {
+    .wrapper {
+        width: 1400px;
+        margin: auto;
+        /* border: 2px red solid; */
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .header-fixed {
+        width: 1400px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #bio-image {
+        height: 453px;
+        width: 453px;
+    }
+    .home-bio {
+        width: 1400px;
+        height: 453px;
+    }
+    .nav-block {
+        width: 457px;
+    }
+    .nav-icon {
+        padding-left: 30px;
+    }
+    .column-1 {
+        width: 486px;
+    }
+    .column-1-1 {
+        width: 0px;
+        /* border: #1AFF2F 1px solid; */
+    }
+    .column-3 {
+        width: 340px;
+    }
+    .assets-box {
+        width: 1400px;
+    }
+    .assets-block {
+        width: 457px;
+    }
+    li.assets {
+        width: 457px;
+    }
+    li.assets-empty {
+        width: 457px;
+    }
+    .assets-img {
+        width: 388px;
+        height: 237px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 388px;
+        height: 237px;
+        object-fit: cover;
+    }
+    .artwork-box {
+        width: 1400px;
+    }
+    #artwork-single {
+        height: 272px;
+        width: 272px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 272px;
+        width: 272px;
+    }
+}
+
+/* Medium devices (tablets, 992px) */
+@media only screen and (max-width: 1530px) {
+    .wrapper {
+        width: 1230px;
+        /* border: 2px rgb(0, 247, 255) solid; */
+    }
+    .header-fixed {
+        width: 1230px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #bio-image {
+        height: 453px;
+        width: 453px;
+    }
+    .home-bio {
+        width: 1230px;
+        height: 473px;
+    }
+    #bio-biography {
+        height: 403px;
+        width: 740px;
+    }
+    .nav-block {
+        width: 400px;
+    }
+    .nav-icon {
+        padding-left: 30px;
+    }
+    .column-1 {
+        width: 419px;
+    }
+    .column-1-1 {
+        width: 0px;
+        /* border: #1AFF2F 1px solid; */
+    }
+    .column-3 {
+        width: 240px;
+    }
+    .assets-box {
+        width: 1230px;
+    }
+    .assets-block {
+        width: 400px;
+        height: 355px;
+    }
+    li.assets {
+        width: 400px;
+        height: 355px;
+    }
+    li.assets-empty {
+        width: 400px;
+        height: 355px;
+    }
+    .assets-img {
+        width: 343px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 343px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .artwork-box {
+        width: 1230px;
+    }
+    #artwork-single {
+        height: 238px;
+        width: 238px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 238px;
+        width: 238px;
+    }
+}
+
+/* Small devices (landscape phones, 768px) */
+@media only screen and (max-width: 1360px) {
+    .wrapper {
+        width: 1060px;
+        /* border: 2px violet solid; */
+    }
+    .header-fixed {
+        width: 1060px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #bio-image {
+        display: none;
+    }
+    .home-bio {
+        width: 1060px;
+        height: 353px;
+    }
+    #bio-title {
+        height: 48px;
+        font-size: 43px;
+    }
+    #bio-biography {
+        height: 303px;
+        width: 1060px;
+        font-size: 23px;
+    }
+    .latest-release {
+        height: 320px;
+        width: 1006px;
+    }
+    #latest-heading {
+        height: 20px;
+        font-size: 17px;
+    }
+    
+    #heading-home {
+        font-size: 41px;
+        height: 48px;
+    }
+
+    .popular-releases-title {
+        font-size: 41px;
+        height: 48px;
+        width: 894px;
+    }
+    
+    #latest-desc {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        /* color: #888888; */
+        font-family:  'Ubuntu', Courier, monospace;
+        font-size: 23px;
+        height: 120px;
+        width: 643px;
+    }
+    .navigation {
+        height: 97px;
+    }
+    .nav-block {
+        width: 344px;
+        height: 97px;
+    }
+    .nav-icon {
+        padding-left: 30px;
+    }
+    .column-1 {
+        width: 380px;
+    }
+    .column-1-1 {
+        width: 0px;
+        /* border: #1AFF2F 1px solid; */
+    }
+    .column-2 {
+        width: 125px;
+    }
+    .column-3 {
+        width: 198px;
+    }
+    .assets-box {
+        width: 1060px;
+    }
+    .assets-block {
+        width: 344px;
+        height: 355px;
+    }
+    li.assets {
+        width: 344px;
+        height: 355px;
+    }
+    li.assets-empty {
+        width: 344px;
+        height: 355px;
+    }
+    .assets-img {
+        width: 273px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 273px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .artwork-box {
+        width: 1060px;
+    }
+    #artwork-single {
+        height: 257px;
+        width: 257px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 257px;
+        width: 257px;
+    }
+    
+}
+
+/* X-Small devices (portrait phones, 576px) */
+@media only screen and (max-width: 1190px) {
+    .wrapper {
+        width: 890px;
+        height: 100%;
+        margin: auto;
+        /* border: 2px blue solid; */
+    }
+    .header-fixed {
+        width: 890px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #bio-image {
+        display: none;
+    }
+    .home-bio {
+        width: 890px;
+        height: 353px;
+    }
+    #bio-title {
+        height: 48px;
+        font-size: 43px;
+    }
+    #bio-biography {
+        height: 303px;
+        width: 890px;
+        font-size: 23px;
+    }
+    .latest-release {
+        height: 320px;
+        width: 890px;
+    }
+    #latest-heading {
+        height: 20px;
+        font-size: 17px;
+    }
+    
+    #heading-home {
+        font-size: 41px;
+        height: 48px;
+    }
+
+    .popular-releases-title {
+        font-size: 41px;
+        height: 48px;
+        width: 894px;
+    }
+    #latest-desc {
+        margin-top: 13px;
+        margin-bottom: 0px;
+        /* color: #888888; */
+        font-family:  'Ubuntu', Courier, monospace;
+        font-size: 23px;
+        height: 120px;
+        width: 530px;
+    }
+    .latests-btns {
+        display: flex;
+        margin-top: 55px;
+        margin-bottom: 0px;
+    }
+    .navigation {
+        height: 97px;
+    }
+    .nav-block {
+        width: 290px;
+        height: 97px;
+    }
+    .navigation-text {
+        width: 180px;
+    }
+    .nav-icon {
+        padding-left: 30px;
+    }
+    .column-1 {
+        width: 390px;
+    }
+    .column-2 {
+        width: 100px;
+    }
+    .column-3 {
+        display: none;
+    }.column-4 {
+        width: 143px;
+        margin-left: 17%;
+    }
+    .assets-box {
+        width: 890px;
+    }
+    .assets-block {
+        width: 290px;
+        height: 355px;
+    }
+    li.assets {
+        width: 290px;
+        height: 355px;
+    }
+    li.assets-empty {
+        width: 290px;
+        height: 355px;
+    }
+    .assets-img {
+        width: 253px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 253px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .artwork-box {
+        width: 890px;
+    }
+    #artwork-single {
+        height: 214px;
+        width: 214px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 214px;
+        width: 214px;
+    }
+    
+}
+
+@media only screen and (max-width: 1020px) {
+    .wrapper {
+        width: 720px;
+        height: 100%;
+        /* border: 2px orange solid; */
+    }
+    .header-fixed {
+        width: 720px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #bio-image {
+        display: none;
+    }
+    .home-bio {
+        width: 720px;
+        height: 440px;
+    }
+    #bio-title {
+        height: 48px;
+        font-size: 43px;
+    }
+    #bio-biography {
+        height: 303px;
+        width: 720px;
+        font-size: 23px;
+    }
+    .latest-release {
+        height: 360px;
+        width: 720px;
+    }
+    #latest-heading {
+        height: 20px;
+        font-size: 17px;
+    }
+    
+    #heading-home {
+        font-size: 41px;
+        height: 48px;
+    }
+    .popular-releases-title {
+        font-size: 41px;
+        height: 48px;
+        width: 720px;
+    }
+    .popular-releases {
+        height: 845px;
+        width: 720px;
+        /* border: #953ced 3px solid; */
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+    .latest-artwork {
+        height: 290px;
+        width: 290px;
+        border-radius: 20px;
+        margin-right: 39px;
+    }
+    #latest-desc {
+        margin-top: 13px;
+        margin-bottom: 0px;
+        /* color: #888888; */
+        font-family:  'Ubuntu', Courier, monospace;
+        font-size: 23px;
+        height: 120px;
+        width: 390px;
+    }
+    .latests-btns {
+        display: flex;
+        margin-left: -329px;
+        margin-top: 110px;
+        margin-bottom: 0px;
+    }
+    .navigation {
+        height: 97px;
+    }
+    .nav-block {
+        width: 230px;
+        height: 97px;
+    }
+    p#navigation {
+        display: none;
+    }
+    p#navigation-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        /* margin-top: 26px; */
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+    p#navigation-selected {
+        display: none;
+    }
+    p#navigation-selected-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        /* margin-top: 26px; */
+        margin-top: 0px;
+    }
+    .nav-icon {
+        padding-left: 50px;
+    }
+    .column-1 {
+        width: 390px;
+    }
+    .column-2 {
+        display: none;
+    }
+    .column-3 {
+        display: none;
+    }
+    .column-4 {
+        width: 143px;
+        margin-left: 12%;
+    }
+    .assets-box {
+        width: 720px;
+    }
+    .assets-block {
+        width: 230px;
+        height: 355px;
+    }
+    li.assets {
+        width: 230px;
+        height: 355px;
+    }
+    li.assets-empty {
+        width: 230px;
+        height: 355px;
+    }
+    .assets-img {
+        width: 192px;
+        height: 192px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 192px;
+        height: 192px;
+        object-fit: cover;
+    }
+    #asset-title p1 {
+        font-size: 18px;
+    }
+    .artwork-box {
+        width: 720px;
+    }
+    #artwork-single {
+        height: 232px;
+        width: 232px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 232px;
+        width: 232px;
+    }
+    .search {
+        height: 54px;
+        font-size: 16px;
+    }
+    input.search {
+        height: 50px;
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .wrapper {
+        /* display: inline-block; */
+        width: 550px;
+        position: relative;
+        /* border: 2px rgb(114, 80, 146) solid; */
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+    }
+    .home-footer {
+        justify-content: space-evenly;
+    }
+    .header-icons{
+        display: none;
+    }
+    .header-fixed {
+        width: 550px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .home-header-link {
+        display: none;
+    }
+    #last-vert-line-header{
+        display: none;
+
+    }
+    .latest-release {
+        height: 887px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .latest-artwork {
+        height: 550px;
+        width: 550px;
+        border-radius: 20px;
+        margin-right: 39px;
+        margin-bottom: 20px;
+    }
+    .latests-btns {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 58px;
+        margin-bottom: 0px;
+    }
+    #latest-desc {
+        margin-top: 13px;
+        margin-bottom: 0px;
+        /* color: #888888; */
+        font-family: 'Ubuntu', Courier, monospace;
+        font-size: 23px;
+        height: 120px;
+        width: 550px;
+    }
+    #heading-home {
+        font-size: 41px;
+        height: 48px;
+    }
+    #latest-heading {
+        height: 20px;
+        font-size: 17px;
+    }
+    .latests-btns {
+        display: flex;
+        /* margin-left: -329px; */
+        margin-top: 58px;
+        margin-bottom: 0px;
+    }
+    .popular-releases-title {
+        font-size: 41px;
+        height: 48px;
+        width: 550px;
+    }
+    .popular-releases {
+        height: 845px;
+        width: 550px;
+        /* border: #953ced 3px solid; */
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+    .home-bio {
+        width: 550px;
+        height: 488px;
+    }
+    #bio-title {
+        height: 48px;
+        font-size: 43px;
+    }
+    #bio-biography {
+        height: 303px;
+        width: 550px;
+        font-size: 23px;
+    }
+
+    .navigation {
+        height: 97px;
+    }
+    .nav-block {
+        width: 175px;
+        height: 97px;
+    }
+    p#navigation-heading {
+        display: none;
+    }
+    p#navigation-selected-heading {
+        display: none;
+    }
+    .nav-icon {
+        padding-left: 37.5%;
+    }
+    .column-1 {
+        width: 390px;
+    }
+    .column-2 {
+        display: none;
+    }
+    .column-3 {
+        display: none;
+    }
+    .column-4 {
+        width: 143px;
+        margin-left: 3.8%;
+    }
+    .assets-box {
+        width: 550px;
+    }
+    .assets-block {
+        width: 550px;
+        height: 400px;
+    }
+    li.assets {
+        width: 550px;
+        height: 400px;
+    }
+    li.assets-empty {
+        width: 550px;
+        height: 400px;
+        display: none;
+    }
+    .assets-img {
+        width: 433px;
+        height: 237px;
+        object-fit: cover;
+    }
+    .assets-img img {
+        width: 433px;
+        height: 237px;
+        object-fit: cover;
+    }
+    #asset-title p1 {
+        font-size: 20px;
+    }
+    
+    .download-button {
+        /* border: #fff 2px solid; */
+        height: 44px;
+        width: 64px;
+        border-radius: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .download-button p {
+        display: none;
+    }
+
+    /* .assets-p-hide {
+        display: none;
+    } */
+    
+    .stream-button {
+        /* border: #fff 2px solid; */
+        height: 44px;
+        width: 64px;
+        border-radius: 22px;
+        /* margin: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .stream-button p {
+        display: none;
+    }
+    .asset-download {
+        height: 44px;
+        width: 143px;
+        border-radius: 22px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 19px;
+    }
+    .artwork-box {
+        width: 550px;
+    }
+    #artwork-single {
+        height: 267px;
+        width: 267px;
+        margin: 4px 4px;
+    }
+    
+    #artwork-img {
+        height: 267px;
+        width: 267px;
+    }
+    .tune {
+        width: 550px;
+    }
+    
+}
+

@@ -1,0 +1,13 @@
+Refactor: Url structure
+Add: Page name in title
+Fix: Search now can find a song by artist + placeholder (fucking was removed)
+Fix: Artworks load time was shorten 
+Fix: .htaccess
+Add: Facebook link
+Add: Tiktok link
+Fix: List of songs was moved 10px right
+Fix: Annoying search style bug
+Refactor: Navigation css + html
+Add: Adatpive design thru media queries
+Refactor: css
+Add: All php files can be included from one file: include.php
